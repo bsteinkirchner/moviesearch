@@ -3,17 +3,8 @@ import MovieCard from "./MovieCard";
 import SearchIcon from "./search.svg"
 import "./App.css";
 
-//936fae93
-
 const API_URL= 'http://www.omdbapi.com/?i=tt3896198&apikey=936fae93'
 
-/*const movie1 = {
-  "Poster": "https://m.media-amazon.com/images/M/MV5BMjE1MDQ4MjI1OV5BMl5BanBnXkFtZTcwNzcwODAzMw@@._V1_SX300.jpg",
-  "Title": "Mean Girls",
-  "Type": "movie",
-  "Year": "2004",
-  "imdbID": "tt0377092"
-}*/
 
 const App = () => {
   const [searchTerm, setSearchTerm] = useState("");
